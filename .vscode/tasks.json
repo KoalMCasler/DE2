@@ -19,6 +19,8 @@
                 "MapSystem.cpp",
                 "Character.cpp",
                 "HealthSystem.cpp",
+                "-I./Source",
+                "-I./Headers",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
